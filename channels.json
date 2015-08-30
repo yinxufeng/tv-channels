@@ -1,0 +1,573 @@
+[
+  {
+    "chineseName": "主　　页",
+    "englishName": "Index",
+    "isHidden": "false",
+    "identifier": "tvlive_home_activity",
+    "classIdentifier": "HomeTabView",
+    "channels": []
+  },
+  {
+    "chineseName": "央　　视",
+    "englishName": "CCTV",
+    "isHidden": "false",
+    "identifier": "tvlive_cctv_identifier",
+    "classIdentifier": "GridFlipper",
+    "dataAction": "replace",
+    "channels": [
+      {
+        "id": "cctv1",
+        "name": "央视综合",
+        "icon": "http://dist.sinaapp.com/tvlive/data/channel_logos/v1/CCTV1.png",
+        "url": "http://live.gslb.letv.com/gslb?stream_id=cctv1&tag=live&ext=m3u8&sign=live_tv"
+      },
+      {
+        "id": "cctv2",
+        "name": "央视经济",
+        "icon": "http://dist.sinaapp.com/tvlive/data/channel_logos/v1/CCTV2.png",
+        "url": "http://live.gslb.letv.com/gslb?stream_id=cctv2&tag=live&ext=m3u8&sign=live_tv"
+      },
+      {
+        "id": "cctv3",
+        "name": "央视综艺",
+        "icon": "http://dist.sinaapp.com/tvlive/data/channel_logos/v1/CCTV3.png",
+        "url": "http://live.gslb.letv.com/gslb?stream_id=cctv3&tag=live&ext=m3u8&sign=live_tv"
+      },
+      {
+        "id": "cctv4",
+        "name": "央视国际",
+        "icon": "http://dist.sinaapp.com/tvlive/data/channel_logos/v1/CCTV4.png",
+        "url": "http://live.gslb.letv.com/gslb?stream_id=cctv4&tag=live&ext=m3u8&sign=live_tv"
+      },
+      {
+        "id": "cctv5",
+        "name": "央视体育",
+        "icon": "http://dist.sinaapp.com/tvlive/data/channel_logos/v1/CCTV5.png",
+        "url": "http://live.gslb.letv.com/gslb?stream_id=cctv5_800&tag=live&ext=m3u8&sign=live_tv"
+      },
+      {
+        "id": "cctv6",
+        "name": "央视电影",
+        "icon": "http://dist.sinaapp.com/tvlive/data/channel_logos/v1/CCTV6.png",
+        "url": "http://live.gslb.letv.com/gslb?stream_id=cctv6&tag=live&ext=m3u8&sign=live_tv"
+      },
+      {
+        "id": "cctv7",
+        "name": "央视军事农业",
+        "icon": "http://dist.sinaapp.com/tvlive/data/channel_logos/v1/CCTV7.png",
+        "url": "http://live.gslb.letv.com/gslb?stream_id=cctv7&tag=live&ext=m3u8&sign=live_tv"
+      },
+      {
+        "id": "cctv8",
+        "name": "央视电视剧",
+        "icon": "http://dist.sinaapp.com/tvlive/data/channel_logos/v1/CCTV8.png",
+        "url": "http://live.gslb.letv.com/gslb?stream_id=cctv8&tag=live&ext=m3u8&sign=live_tv"
+      },
+      {
+        "id": "cctv9",
+        "name": "央视纪录",
+        "icon": "http://dist.sinaapp.com/tvlive/data/channel_logos/v1/CCTV9.png",
+        "url": "http://live.gslb.letv.com/gslb?stream_id=cctv9&tag=live&ext=m3u8&sign=live_tv"
+      },
+      {
+        "id": "cctv10",
+        "name": "央视科教",
+        "icon": "http://dist.sinaapp.com/tvlive/data/channel_logos/v1/CCTV10.png",
+        "url": "http://live.gslb.letv.com/gslb?stream_id=cctv10&tag=live&ext=m3u8&sign=live_tv"
+      },
+      {
+        "id": "cctv11",
+        "name": "央视戏曲",
+        "icon": "http://dist.sinaapp.com/tvlive/data/channel_logos/v1/CCTV11.png",
+        "url": "http://live.gslb.letv.com/gslb?stream_id=cctv11&tag=live&ext=m3u8&sign=live_tv"
+      },
+      {
+        "id": "cctv12",
+        "name": "央视社会与法",
+        "icon": "http://dist.sinaapp.com/tvlive/data/channel_logos/v1/CCTV12.png",
+        "url": "http://live.gslb.letv.com/gslb?stream_id=cctv12&tag=live&ext=m3u8&sign=live_tv"
+      },
+      {
+        "id": "cctvnew",
+        "name": "央视新闻频道",
+        "icon": "http://dist.sinaapp.com/tvlive/data/channel_logos/v1/CCTV13.png",
+        "url": "http://live.gslb.letv.com/gslb?stream_id=cctvnew&tag=live&ext=m3u8&sign=live_tv"
+      },
+      {
+        "id": "cctvshaoer",
+        "name": "中央少儿",
+        "icon": "http://dist.sinaapp.com/tvlive/data/channel_logos/v1/CCTVChild.png",
+        "url": "http://live.gslb.letv.com/gslb?stream_id=cctvshaoer&tag=live&ext=m3u8&sign=live_tv"
+      },
+      {
+        "id": "cctvmusic",
+        "name": "央视音乐",
+        "icon": "http://dist.sinaapp.com/tvlive/data/channel_logos/v1/CCTVMusic.png",
+        "url": "http://live.gslb.letv.com/gslb?stream_id=cctvmusic&tag=live&ext=m3u8&sign=live_tv"
+      },
+      {
+        "id": "fyyy",
+        "name": "央视风云音乐",
+        "icon": "http://dist.sinaapp.com/tvlive/data/channel_logos/v1/CCTVFYYY.png",
+        "url": "http://live.gslb.letv.com/gslb?stream_id=fyyy&tag=live&ext=m3u8&sign=live_tv"
+      },
+      {
+        "id": "fyzq",
+        "name": "央视风云足球",
+        "icon": "http://dist.sinaapp.com/tvlive/data/channel_logos/v1/CCTVFYZQ.png",
+        "url": "http://live.gslb.letv.com/gslb?stream_id=fyzq&tag=live&ext=m3u8&sign=live_tv"
+      },
+      {
+        "id": "golfwangqiu",
+        "name": "央视高网",
+        "icon": "http://dist.sinaapp.com/tvlive/data/channel_logos/v1/CCTVGW.png",
+        "url": "http://live.gslb.letv.com/gslb?stream_id=golfwangqiu&tag=live&ext=m3u8&sign=live_tv"
+      },
+      {
+        "id": "natgeo",
+        "name": "世界地理",
+        "icon": "http://dist.sinaapp.com/tvlive/data/channel_logos/v1/NGC-HK.png",
+        "url": "http://live.gslb.letv.com/gslb?stream_id=shijiedili&tag=live&ext=m3u8&sign=live_tv"
+      },
+      {
+        "id": "guofangjunshi",
+        "name": "国防军事",
+        "icon": "http://dist.sinaapp.com/tvlive/data/channel_logos/v1/CCTVPAYFEE8.png",
+        "url": "http://live.gslb.letv.com/gslb?stream_id=guofangjunshi&tag=live&ext=m3u8&sign=live_tv"
+      },
+      {
+        "id": "hjjc",
+        "name": "怀旧剧场",
+        "icon": "http://dist.sinaapp.com/tvlive/data/channel_logos/v1/CCTVHJJC.png",
+        "url": "http://live.gslb.letv.com/gslb?stream_id=hjjc&tag=live&ext=m3u8&sign=live_tv"
+      },
+      {
+        "id": "dyjc",
+        "name": "第一剧场",
+        "icon": "http://dist.sinaapp.com/tvlive/data/channel_logos/v1/CCTVDYJC.png",
+        "url": "http://live.gslb.letv.com/gslb?stream_id=dyjc&tag=live&ext=m3u8&sign=live_tv"
+      }
+    ]
+  },
+  {
+    "chineseName": "地方卫视",
+    "englishName": "Local TV",
+    "isHidden": "false",
+    "identifier": "tvlive_local_identifier",
+    "classIdentifier": "GridFlipper",
+    "dataAction": "replace",
+    "channels": [
+      {
+        "id": "hunan",
+        "name": "湖南卫视",
+        "icon": "http://dist.sinaapp.com/tvlive/data/channel_logos/v1/HuNanTV.png",
+        "url": "http://live.gslb.letv.com/gslb?stream_id=hunan&tag=live&ext=m3u8&sign=live_tv"
+      },
+      {
+        "id": "jiangsu",
+        "name": "江苏卫视",
+        "icon": "http://dist.sinaapp.com/tvlive/data/channel_logos/v1/JiangSuTV.png",
+        "url": "http://live.gslb.letv.com/gslb?stream_id=jiangsu&tag=live&ext=m3u8&sign=live_tv"
+      },
+      {
+        "id": "zhejiang",
+        "name": "浙江卫视",
+        "icon": "http://dist.sinaapp.com/tvlive/data/channel_logos/v1/ZheJiangTV.png",
+        "url": "http://live.gslb.letv.com/gslb?stream_id=zhejiang&tag=live&ext=m3u8&sign=live_tv"
+      },
+      {
+        "id": "dongfang",
+        "name": "上海卫视东方",
+        "icon": "http://dist.sinaapp.com/tvlive/data/channel_logos/v1/SHDongFangTV.png",
+        "url": "http://live.gslb.letv.com/gslb?stream_id=dongfang&tag=live&ext=m3u8&sign=live_tv"
+      },
+      {
+        "id": "shenzhen",
+        "name": "深圳卫视",
+        "icon": "http://dist.sinaapp.com/tvlive/data/channel_logos/v1/ShenZhenTV.png",
+        "url": "http://live.gslb.letv.com/gslb?stream_id=shenzhen&tag=live&ext=m3u8&sign=live_tv"
+      },
+      {
+        "id": "bjws",
+        "name": "北京卫视",
+        "icon": "http://dist.sinaapp.com/tvlive/data/channel_logos/v1/BTV1.png",
+        "url": "http://live.gslb.letv.com/gslb?stream_id=bjws&tag=live&ext=m3u8&sign=live_tv"
+      },
+      {
+        "id": "liaoning",
+        "name": "辽宁卫视",
+        "icon": "http://dist.sinaapp.com/tvlive/data/channel_logos/v1/LiaoNingTV.png",
+        "url": "http://live.gslb.letv.com/gslb?stream_id=liaoning&tag=live&ext=m3u8&sign=live_tv"
+      },
+      {
+        "id": "shanxi1",
+        "name": "陕西卫视",
+        "icon": "http://dist.sinaapp.com/tvlive/data/channel_logos/v1/Shan3XiTV.png",
+        "url": "http://live.gslb.letv.com/gslb?stream_id=shanxi1&tag=live&ext=m3u8&sign=live_tv"
+      },
+      {
+        "id": "jiangxi",
+        "name": "江西卫视",
+        "icon": "http://dist.sinaapp.com/tvlive/data/channel_logos/v1/JiangXiTV.png",
+        "url": "http://live.gslb.letv.com/gslb?stream_id=jiangxi&tag=live&ext=m3u8&sign=live_tv"
+      },
+      {
+        "id": "gansu",
+        "name": "甘肃卫视",
+        "icon": "http://dist.sinaapp.com/tvlive/data/channel_logos/v1/GanSuTV.png",
+        "url": "http://live.gslb.letv.com/gslb?stream_id=gansu&tag=live&ext=m3u8&sign=live_tv"
+      },
+      {
+        "id": "hebei",
+        "name": "河北卫视",
+        "icon": "http://dist.sinaapp.com/tvlive/data/channel_logos/v1/HeBeiTV.png",
+        "url": "http://live.gslb.letv.com/gslb?stream_id=hebei&tag=live&ext=m3u8&sign=live_tv"
+      },
+      {
+        "id": "tianjin",
+        "name": "天津卫视",
+        "icon": "http://dist.sinaapp.com/tvlive/data/channel_logos/v1/TianJinTV.png",
+        "url": "http://live.gslb.letv.com/gslb?stream_id=tianjin&tag=live&ext=m3u8&sign=live_tv"
+      },
+      {
+        "id": "anhui",
+        "name": "安徽卫视",
+        "icon": "http://dist.sinaapp.com/tvlive/data/channel_logos/v1/AnHuiTV.png",
+        "url": "http://live.gslb.letv.com/gslb?stream_id=anhui&tag=live&ext=m3u8&sign=live_tv"
+      },
+      {
+        "id": "yunnan",
+        "name": "云南卫视",
+        "icon": "http://dist.sinaapp.com/tvlive/data/channel_logos/v1/YunNanTV.png",
+        "url": "http://live.gslb.letv.com/gslb?stream_id=yunnan&tag=live&ext=m3u8&sign=live_tv"
+      },
+      {
+        "id": "xizang",
+        "name": "西藏卫视",
+        "icon": "http://dist.sinaapp.com/tvlive/data/channel_logos/v1/XiZangTV.png",
+        "url": "http://live.gslb.letv.com/gslb?stream_id=xizang&tag=live&ext=m3u8&sign=live_tv"
+      },
+      {
+        "id": "jilin",
+        "name": "吉林卫视",
+        "icon": "http://dist.sinaapp.com/tvlive/data/channel_logos/v1/JiLinTV.png",
+        "url": "http://live.gslb.letv.com/gslb?stream_id=jilin&tag=live&ext=m3u8&sign=live_tv"
+      },
+      {
+        "id": "heilongjiang",
+        "name": "黑龙江卫视",
+        "icon": "http://dist.sinaapp.com/tvlive/data/channel_logos/v1/HeiLongJiangTV.png",
+        "url": "http://live.gslb.letv.com/gslb?stream_id=heilongjiang&tag=live&ext=m3u8&sign=live_tv"
+      },
+      {
+        "id": "sichuan",
+        "name": "四川卫视",
+        "icon": "http://dist.sinaapp.com/tvlive/data/channel_logos/v1/SiChuanTV.png",
+        "url": "http://live.gslb.letv.com/gslb?stream_id=sichuan&tag=live&ext=m3u8&sign=live_tv"
+      },
+      {
+        "id": "guizhou",
+        "name": "贵州卫视",
+        "icon": "http://dist.sinaapp.com/tvlive/data/channel_logos/v1/GuiZhouTV.png",
+        "url": "http://live.gslb.letv.com/gslb?stream_id=guizhou&tag=live&ext=m3u8&sign=live_tv"
+      },
+      {
+        "id": "dongnan",
+        "name": "东南卫视",
+        "icon": "http://dist.sinaapp.com/tvlive/data/channel_logos/v1/DongNanTV.png",
+        "url": "http://live.gslb.letv.com/gslb?stream_id=dongnan&tag=live&ext=m3u8&sign=live_tv"
+      },
+      {
+        "id": "guangxi",
+        "name": "广西卫视",
+        "icon": "http://dist.sinaapp.com/tvlive/data/channel_logos/v1/GuangXiTV.png",
+        "url": "http://live.gslb.letv.com/gslb?stream_id=guangxi&tag=live&ext=m3u8&sign=live_tv"
+      },
+      {
+        "id": "guangdong",
+        "name": "广东卫视",
+        "icon": "http://dist.sinaapp.com/tvlive/data/channel_logos/v1/GuangDongTV.png",
+        "url": "http://live.gslb.letv.com/gslb?stream_id=guangdong&tag=live&ext=m3u8&sign=live_tv"
+      },
+      {
+        "id": "hubei",
+        "name": "湖北卫视",
+        "icon": "http://dist.sinaapp.com/tvlive/data/channel_logos/v1/HuBeiTV.png",
+        "url": "http://live.gslb.letv.com/gslb?stream_id=hubei&tag=live&ext=m3u8&sign=live_tv"
+      },
+      {
+        "id": "neimenggu",
+        "name": "内蒙古卫视",
+        "icon": "http://dist.sinaapp.com/tvlive/data/channel_logos/v1/NeiMengGuTV.png",
+        "url": "http://live.gslb.letv.com/gslb?stream_id=neimenggu&tag=live&ext=m3u8&sign=live_tv"
+      },
+      {
+        "id": "qinghai",
+        "name": "青海卫视",
+        "icon": "http://dist.sinaapp.com/tvlive/data/channel_logos/v1/QingHaiTV.png",
+        "url": "http://live.gslb.letv.com/gslb?stream_id=qinghai&tag=live&ext=m3u8&sign=live_tv"
+      },
+      {
+        "id": "chongqing",
+        "name": "重庆卫视",
+        "icon": "http://dist.sinaapp.com/tvlive/data/channel_logos/v1/ChongQingTV.png",
+        "url": "http://live.gslb.letv.com/gslb?stream_id=chongqing&tag=live&ext=m3u8&sign=live_tv"
+      },
+      {
+        "id": "shandong",
+        "name": "山东卫视",
+        "icon": "http://dist.sinaapp.com/tvlive/data/channel_logos/v1/ShanDongTV.png",
+        "url": "http://live.gslb.letv.com/gslb?stream_id=shandong&tag=live&ext=m3u8&sign=live_tv"
+      },
+      {
+        "id": "shanxi",
+        "name": "山西卫视",
+        "icon": "http://dist.sinaapp.com/tvlive/data/channel_logos/v1/ShanXiTV.png",
+        "url": "http://live.gslb.letv.com/gslb?stream_id=shanxi&tag=live&ext=m3u8&sign=live_tv"
+      },
+      {
+        "id": "henan",
+        "name": "河南卫视",
+        "icon": "http://dist.sinaapp.com/tvlive/data/channel_logos/v1/HeNanTV.png",
+        "url": "http://live.gslb.letv.com/gslb?stream_id=henan&tag=live&ext=m3u8&sign=live_tv"
+      },
+      {
+        "id": "ningxia",
+        "name": "宁夏卫视",
+        "icon": "http://dist.sinaapp.com/tvlive/data/channel_logos/v1/NingXiaTV.png",
+        "url": "http://live.gslb.letv.com/gslb?stream_id=ningxia&tag=live&ext=m3u8&sign=live_tv"
+      },
+      {
+        "id": "xinjiang",
+        "name": "新疆卫视",
+        "icon": "http://dist.sinaapp.com/tvlive/data/channel_logos/v1/XinJiangTV.png",
+        "url": "http://live.gslb.letv.com/gslb?stream_id=xinjiang&tag=live&ext=m3u8&sign=live_tv"
+      },
+      {
+        "id": "bjkaku",
+        "name": "卡酷频道",
+        "icon": "http://dist.sinaapp.com/tvlive/data/channel_logos/v1/KAKU.png",
+        "url": "http://live.gslb.letv.com/gslb?stream_id=bjkaku&tag=live&ext=m3u8&sign=live_tv"
+      },
+      {
+        "id": "nanfang",
+        "name": "南方卫视",
+        "icon": "http://dist.sinaapp.com/tvlive/data/channel_logos/v1/SouthTV.png",
+        "url": "http://live.gslb.letv.com/gslb?stream_id=nanfang&tag=live&ext=m3u8&sign=live_tv"
+      },
+      {
+        "id": "lvyou",
+        "name": "旅游卫视",
+        "icon": "http://dist.sinaapp.com/tvlive/data/channel_logos/v1/TravelTV.png",
+        "url": "http://live.gslb.letv.com/gslb?stream_id=lvyou&tag=live&ext=m3u8&sign=live_tv"
+      },
+      {
+        "id": "btv6",
+        "name": "北京体育",
+        "icon": "http://dist.sinaapp.com/tvlive/data/channel_logos/v1/BTV6TV.png",
+        "url": "http://live.gslb.letv.com/gslb?stream_id=btv6_800&tag=live&ext=m3u8&sign=live_tv"
+      },
+      {
+        "id": "shanghaitiyu",
+        "name": "上海体育",
+        "icon": "http://dist.sinaapp.com/tvlive/data/channel_logos/v1/SHANGHAITIYUTV.png",
+        "url": "http://live.gslb.letv.com/gslb?stream_id=shanghaitiyu_800&tag=live&ext=m3u8&sign=live_tv"
+      },
+      {
+        "id": "guangdongtiyu",
+        "name": "广东体育",
+        "icon": "http://dist.sinaapp.com/tvlive/data/channel_logos/v1/GUANGDONGTIYUTV.png",
+        "url": "http://live.gslb.letv.com/gslb?stream_id=guangdongtiyu&tag=live&ext=m3u8&sign=live_tv"
+      },
+      {
+        "id": "jykt",
+        "name": "金鹰卡通",
+        "icon": "http://dist.sinaapp.com/tvlive/data/channel_logos/v1/JYKTTV.png",
+        "url": "http://live.gslb.letv.com/gslb?stream_id=jykt&tag=live&ext=m3u8&sign=live_tv"
+      },
+      {
+        "id": "xdkt",
+        "name": "炫动卡通",
+        "icon": "http://dist.sinaapp.com/tvlive/data/channel_logos/v1/XDKTTV.png",
+        "url": "http://live.gslb.letv.com/gslb?stream_id=xdkt&tag=live&ext=m3u8&sign=live_tv"
+      },
+      {
+        "id": "tywq",
+        "name": "天元围棋",
+        "icon": "http://dist.sinaapp.com/tvlive/data/channel_logos/v1/TYWQTV.png",
+        "url": "http://live.gslb.letv.com/gslb?stream_id=tywq&tag=live&ext=m3u8&sign=live_tv"
+      },
+      {
+        "id": "sdjy",
+        "name": "山东教育",
+        "icon": "http://dist.sinaapp.com/tvlive/data/channel_logos/v1/SDJYTV.png",
+        "url": "http://live.gslb.letv.com/gslb?stream_id=sdjy&tag=live&ext=m3u8&sign=live_tv"
+      }
+    ]
+  },
+  {
+    "chineseName": "高　　清",
+    "englishName": "HD TV",
+    "isHidden": "false",
+    "identifier": "tvlive_hd_identifier",
+    "classIdentifier": "GridFlipper",
+    "dataAction": "replace",
+    "channels": [
+      {
+        "id": "channel_1",
+        "name": "乐视综合",
+        "url": "http://live.gslb.letv.com/gslb?stream_id=channel_1_1800&tag=live&ext=m3u8&sign=live_tv"
+      },
+      {
+        "id": "channel_2",
+        "name": "乐视电影",
+        "url": "http://live.gslb.letv.com/gslb?stream_id=letv_movie&tag=live&ext=m3u8&sign=live_tv"
+      },
+      {
+        "id": "channel_3",
+        "name": "乐视电视剧",
+        "url": "http://live.gslb.letv.com/gslb?stream_id=letv_tv&tag=live&ext=m3u8&sign=live_tv"
+      },
+      {
+        "id": "channel_4",
+        "name": "乐视动漫",
+        "url": "http://live.gslb.letv.com/gslb?stream_id=letv_comic&tag=live&ext=m3u8&sign=live_tv"
+      },
+      {
+        "id": "letv_qinzi",
+        "name": "乐视亲子",
+        "url": "http://live.gslb.letv.com/gslb?stream_id=letv_qinzi_800&tag=live&ext=m3u8&sign=live_tv"
+      },
+      {
+        "id": "channel_5",
+        "name": "乐视体育",
+        "url": "http://live.gslb.letv.com/gslb?stream_id=letv_sports&tag=live&ext=m3u8&sign=live_tv"
+      },
+      {
+        "id": "letv_zuqiu",
+        "name": "乐视足球",
+        "url": "http://live.gslb.letv.com/gslb?stream_id=letv_zuqiu_1300&tag=live&ext=m3u8&sign=live_tv"
+      },
+      {
+        "id": "channel_6",
+        "name": "乐视纪录片",
+        "url": "http://live.gslb.letv.com/gslb?stream_id=letv_jilu&tag=live&ext=m3u8&sign=live_tv"
+      },
+      {
+        "id": "channel_7",
+        "name": "乐视1080P",
+        "url": "http://live.gslb.letv.com/gslb?stream_id=letv_1080P&tag=live&ext=m3u8&sign=live_tv"
+      },
+      {
+        "id": "channel_8",
+        "name": "乐视音乐",
+        "url": "http://live.gslb.letv.com/gslb?stream_id=letv_music&tag=live&ext=m3u8&sign=live_tv"
+      },
+      {
+        "id": "channel_8",
+        "name": "乐视演唱会",
+        "url": "http://live.gslb.letv.com/gslb?stream_id=letv_concert&tag=live&ext=m3u8&sign=live_tv"
+      },
+      {
+        "id": "channel_9",
+        "name": "乐视电视剧片花",
+        "url": "http://live.gslb.letv.com/gslb?stream_id=tv_trailer&tag=live&ext=m3u8&sign=live_tv"
+      },
+      {
+        "id": "channel_10",
+        "name": "乐视电影片花",
+        "url": "http://live.gslb.letv.com/gslb?stream_id=movie_trailer&tag=live&ext=m3u8&sign=live_tv"
+      },
+      {
+        "id": "channel_11",
+        "name": "乐视文娱",
+        "url": "http://live.gslb.letv.com/gslb?stream_id=letv_ent&tag=live&ext=m3u8&sign=live_tv"
+      },
+      {
+        "id": "channel_12",
+        "name": "乐视自制剧",
+        "url": "http://live.gslb.letv.com/gslb?stream_id=letv_make&tag=live&ext=m3u8&sign=live_tv"
+      },
+      {
+        "id": "channel_14",
+        "name": "乐视韩剧",
+        "url": "http://live.gslb.letv.com/gslb?stream_id=letv_koreatv&tag=live&ext=m3u8&sign=live_tv"
+      },
+      {
+        "id": "channel_15",
+        "name": "乐视高尔夫",
+        "url": "http://live.gslb.letv.com/gslb?stream_id=letv_golf&tag=live&ext=m3u8&sign=live_tv"
+      },
+      {
+        "id": "channel_16",
+        "name": "乐视网球",
+        "url": "http://live.gslb.letv.com/gslb?stream_id=letv_wangqiu&tag=live&ext=m3u8&sign=live_tv"
+      },
+      {
+        "id": "channel_17",
+        "name": "乐视跟播",
+        "icon": "http://i2.letvimg.com/other/201309/25/17genbo_357_65.png",
+        "url": "http://live.gslb.letv.com/gslb?stream_id=letv_genbo&tag=live&ext=m3u8&sign=live_tv"
+      },
+      {
+        "id": "channel_18",
+        "name": "乐视《甄嬛传》",
+        "icon": "http://i1.letvimg.com/other/201309/25/18zhenhuan_389_65.png",
+        "url": "http://live.gslb.letv.com/gslb?stream_id=letv_zhenhuan&tag=live&ext=m3u8&sign=live_tv"
+      },
+      {
+        "id": "channel_19",
+        "name": "乐视《龙门镖局》",
+        "icon": "http://i0.letvimg.com/other/201309/25/19longmen_431_65.png",
+        "url": "http://live.gslb.letv.com/gslb?stream_id=letv_longmen&tag=live&ext=m3u8&sign=live_tv"
+      },
+      {
+        "id": "letv_qinzi",
+        "name": "乐视《小爸爸》",
+        "icon": "http://i3.letvimg.com/other/201309/25/20xiaobaba_389_65.png",
+        "url": "http://live.gslb.letv.com/gslb?stream_id=letv_xiaobaba_800&tag=live&ext=m3u8&sign=live_tv"
+      },
+      {
+        "id": "letv_aiqingmianqianshuipashui",
+        "name": "乐视《爱情面前谁怕谁》",
+        "icon": "http://i1.letvimg.com/other/201310/12/21aiqingmianq_562_65.png",
+        "url": "http://live.gslb.letv.com/gslb?stream_id=letv_xzqjz_800&tag=live&ext=m3u8&sign=live_tv"
+      },
+      {
+        "id": "letv_qinzi",
+        "name": "明星-赵薇",
+        "icon": "http://i2.letvimg.com/other/201309/29/23zhaow_347_65.png",
+        "url": "http://live.gslb.letv.com/gslb?stream_id=letv_caizhuoyan&tag=live&ext=m3u8&sign=live_tv"
+      },
+      {
+        "id": "letv_qinzi",
+        "name": "明星-孙红雷",
+        "icon": "http://i1.letvimg.com/other/201310/16/24sunhl_390_65.png",
+        "url": "http://live.gslb.letv.com/gslb?stream_id=letv_sunhonglei&tag=live&ext=m3u8&sign=live_tv"
+      },
+      {
+        "id": "letv_3d",
+        "name": "乐视3D",
+        "url": "http://live.gslb.letv.com/gslb?stream_id=letv_caizhuoyan&tag=live&ext=m3u8&sign=live_tv"
+      }
+    ]
+  },
+  {
+    "chineseName": "自  定  义",
+    "englishName": "User Defined",
+    "isHidden": "false",
+    "identifier": "tvlive_userdefined_identifier",
+    "classIdentifier": "GridFlipper",
+    "dataAction": "replace",
+    "channels": []
+  },
+  {
+    "chineseName": "收　　藏",
+    "englishName": "Favorites",
+    "isHidden": "false",
+    "identifier": "tvlive_favorites_identifier",
+    "classIdentifier": "GridFlipper",
+    "dataAction": "replace",
+    "channels": []
+  }
+]
